@@ -12,6 +12,7 @@ You can set some parameters in `multi-armed_bandit_problem.py`.
 
 If there are **four slot machines** (winning rate:[0.5,0.4,0.3,0.2]) and player is allowed to pull the lever **10000 times**:
 
+
 ```python:multi-armed_bandit_problem.py
 def main():
     # set parameter
