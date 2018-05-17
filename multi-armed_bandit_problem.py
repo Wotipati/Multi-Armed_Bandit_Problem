@@ -9,7 +9,7 @@ from slot_machine import SlotMachine
 
 class Bandit:
     def __init__(self, machine_rate, iteration=10000, sample=10000, method=1):
-        self.epsilon = 0.3
+        self.epsilon = 0.25
         self.total_iteration = iteration
         self.total_sample = sample
         self.total_arm = machine_rate.size
