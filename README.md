@@ -1,7 +1,9 @@
 # Multi-Armed Bandit Problem
+![2](https://user-images.githubusercontent.com/26996041/40157009-a88de258-59d7-11e8-9e7c-4b9a0803ac72.png)
+
+</br>
 
 **This python scripts implements several following simple algorithms for solving the Multi-Armed Bandit Problem.**
-
 - Greedy
 - Epsilon-greedy
 - UCB1
@@ -29,9 +31,14 @@ python multi-armed_bandit_problem.py
 (It will take some time...)
 
 ## Results
-This script visualizes the learning processes in each method.
+This script visualizes the learning processes in each method.  
+<div align="center">
+<img src="https://user-images.githubusercontent.com/26996041/40157059-e6662f72-59d7-11e8-8429-4581c5c279c5.png">  
+</br>
 
+<img width="667" src="https://user-images.githubusercontent.com/26996041/40157063-e9e7a9c8-59d7-11e8-928a-24fde44e86a6.png">
 
+</div>
 ---
 
 ### References
