@@ -23,12 +23,14 @@ class Bandit:
 
     def trial(self):
         method = self.method
+        print(self.titles[method])
         total_iteration = self.total_iteration
-        for slot in range(self.total_sample):
+        for episode in range(self.total_sample):
+            print("Episode {0} / {1}".format(episode+1, self.total_sample))
             slot_machine = SlotMachine(self.true_rates)
 
             for step in range(self.total_arm):
-                choice = (step+slot)%self.total_arm
+                choice = (step+episode)%self.total_arm
                 for i in range(step, total_iteration):
                     self.choice_rate_history[i, choice] += 1
 
@@ -116,7 +118,7 @@ class Bandit:
 def main():
     # set parameter
     true_rate = np.array([0.5,0.4,0.3,0.2])  # winning rate
-    iteration = 10000                        # Total round
+    iteration = 5000                        # Total round
     sample = 100                             # Number of trials
 
     bandit = Bandit(true_rate, iteration, sample, 0)
