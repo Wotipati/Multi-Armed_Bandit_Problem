@@ -28,7 +28,7 @@ python multi-armed_bandit_problem.py
 ```
 (It will take some time...)
 
-### Results
+## Results
 This script visualizes the learning processes in each method.
 
 

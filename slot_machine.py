@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as pd
 import random
+import math
 
 
 class SlotMachine:
@@ -24,4 +25,4 @@ class SlotMachine:
 
 
     def calc_upper_confidence(self):
-        return np.sqrt(2 * np.log(self.total_choice_counter) / self.choice_counter)
+        return np.sqrt(2 * math.log(self.total_choice_counter) / self.choice_counter)
