@@ -36,7 +36,7 @@ This script visualizes the learning processes in each method.
 <img src="https://user-images.githubusercontent.com/26996041/40157059-e6662f72-59d7-11e8-8429-4581c5c279c5.png">  
 </br>
 
-<img width="607" src="https://user-images.githubusercontent.com/26996041/40157063-e9e7a9c8-59d7-11e8-928a-24fde44e86a6.png">
+<img width="507" src="https://user-images.githubusercontent.com/26996041/40157063-e9e7a9c8-59d7-11e8-928a-24fde44e86a6.png">
 
 </div>
 ---
