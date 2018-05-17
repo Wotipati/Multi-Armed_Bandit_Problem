@@ -1,7 +1,8 @@
 # Multi-Armed Bandit Problem
-![2](https://user-images.githubusercontent.com/26996041/40157009-a88de258-59d7-11e8-9e7c-4b9a0803ac72.png)
-
-</br>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/26996041/40157009-a88de258-59d7-11e8-9e7c-4b9a0803ac72.png">  
+</div>
+</br>  
 
 **This python scripts implements several following simple algorithms for solving the Multi-Armed Bandit Problem.**
 - Greedy
