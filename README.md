@@ -29,7 +29,6 @@ To try this script, you can run by:
 ```
 python multi-armed_bandit_problem.py
 ```
-(It will take some time...)
 
 ## Results
 This script visualizes the learning processes in each method.  
