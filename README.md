@@ -39,7 +39,11 @@ This script visualizes the learning processes in each method.
 <img width="507" src="https://user-images.githubusercontent.com/26996041/40157063-e9e7a9c8-59d7-11e8-928a-24fde44e86a6.png">
 
 </div>
+
 ---
 
 ### References
 [これからの強化学習](http://www.morikita.co.jp/books/book/3034)
+
+### License
+MIT License, Seita Kayukawa (Wotipati)
